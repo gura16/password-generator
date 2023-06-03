@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" defer></script>
+    <title>password-generator-app</title>
+  </head>
+  <body>
+    <h1>Password Generator</h1>
+    <div class="container1">
+      <input class="input" disabled />
+      <p class="copied">COPIED</p>
+      <div class="copy-div">
+        <img src="./copy-btn.png" class="copy-btn" />
+        <img src="./Shape (6).png" class="copy-btn1" />
+      </div>
+    </div>
+    <div class="container2">
+      <div class="character">
+        <h2>Character Length</h2>
+        <h3 id="number">0</h3>
+      </div>
+      <input type="range" value="0" min="0" max="20" id="length-range" />
+      <div class="check-container">
+        <div class="check-boxes">
+          <div id="one" class="check-box">
+            <img id="check1" class="path1" src="./path1.png" />
+          </div>
+          <div id="two" class="check-box">
+            <img id="check2" class="path1" src="./path1.png" />
+          </div>
+          <div id="thre" class="check-box">
+            <img id="check3" class="path1" src="./path1.png" />
+          </div>
+          <div id="four" class="check-box">
+            <img id="check4" class="path1" src="./path1.png" />
+          </div>
+        </div>
+        <div class="check-text">
+          <p class="text">Include Uppercase Letters</p>
+          <p class="text">Include Lowercase Letters</p>
+          <p class="text">Include Numbers</p>
+          <p class="text">Include Symbols</p>
+        </div>
+      </div>
+      <div class="password-level">
+        <h4>STRENGTH</h4>
+        <div class="medium-box">
+          <h5 id="medium"></h5>
+          <div class="check-bulbs">
+            <div id="first" class="bulb"></div>
+            <div id="second" class="bulb"></div>
+            <div id="third" class="bulb"></div>
+            <div id="fourth" class="bulb"></div>
+          </div>
+        </div>
+      </div>
+      <button class="generate-btn">
+        <div class="generate">
+          <h6>GENERATE</h6>
+          <img class="shape1" src="./Shape (7).png" />
+          <img class="shape" src="./Shape (5).png" />
+        </div>
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #08070b;
+  font-family: "JetBrains Mono";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+h1 {
+  color: #817d92;
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.container1 {
+  height: 64px;
+  width: 343px;
+  background-color: #24232c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.input {
+  height: 60px;
+  width: 220px;
+  background-color: #24232c;
+  border: none;
+  outline: none;
+  font-family: "JetBrains Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e6e5ea;
+  padding-left: 10px;
+}
+
+.copied {
+  font-family: "JetBrains Mono";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #a4ffaf;
+  display: none;
+}
+
+.copy-btn {
+  height: 20px;
+  width: 17.5px;
+}
+
+.copy-btn1 {
+  display: none;
+}
+.container2 {
+  height: 440px;
+  width: 343px;
+  background-color: #24232c;
+  padding: 0 16px;
+  margin-bottom: 73px;
+}
+
+.character {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+
+h2 {
+  color: #e6e5ea;
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 4px;
+}
+
+h3 {
+  font-family: "JetBrains Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #a4ffaf;
+}
+
+#length-range {
+  height: 8px;
+  width: 311px;
+  left: 16px;
+  top: 182px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  margin-top: 23px;
+  background-color: #08070b;
+}
+
+#length-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 28px;
+  width: 28px;
+  left: 158px;
+  top: 172px;
+  border-radius: 50%;
+  background-color: #e6e5ea;
+}
+.check-container {
+  margin-top: 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.check-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.check-box {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #e6e5ea;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.path1 {
+  height: 8px;
+  width: 11.393407821655273px;
+  color: #18171f;
+  display: none;
+}
+
+.check-text {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.text {
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e6e5ea;
+}
+
+.password-level {
+  height: 56px;
+  width: 311px;
+  background-color: #18171f;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 14px;
+}
+
+h4 {
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #817d92;
+  margin-top: 2px;
+}
+
+h5 {
+  font-family: "JetBrains Mono";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #e6e5ea;
+
+  margin-left: -40px;
+}
+
+.check-bulbs {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.bulb {
+  height: 28px;
+  width: 10px;
+  border: 2px solid #e6e5ea;
+}
+
+.medium-box {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.generate-btn {
+  height: 56px;
+  width: 311px;
+  margin-top: 16px;
+  background-color: #a4ffaf;
+  border: none;
+}
+
+h6 {
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #24232c;
+}
+
+.shape {
+  height: 12px;
+  width: 11.10540771484375px;
+  left: 104.10546875px;
+  color: #24232c;
+  margin-top: 4px;
+}
+
+.generate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+}
+
+.shape1 {
+  display: none;
+  height: 12px;
+  width: 11.1px;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-family: "JetBrains Mono";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: right;
+  }
+  .container1 {
+    height: 80px;
+    width: 540px;
+    padding-right: 34px;
+  }
+
+  .input {
+    height: 80px;
+    width: 350px;
+    color: #e6e5ea;
+    font-family: "JetBrains Mono";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .copied {
+    display: none;
+  }
+  .copy-btn {
+    height: 24px;
+    width: 21px;
+    cursor: pointer;
+  }
+
+  .copy-btn:hover {
+    color: white;
+  }
+
+  .copy-div:hover .copy-btn1 {
+    display: inline;
+  }
+
+  .copy-div:hover .copy-btn {
+    display: none;
+  }
+  .container2 {
+    height: 528px;
+    width: 540px;
+    padding: 0 32px;
+  }
+
+  #length-range {
+    height: 8px;
+    width: 476px;
+  }
+
+  #length-range::-webkit-slider-thumb:hover {
+    background-color: #18171f;
+    border: 2px solid #a4ffaf;
+    cursor: pointer;
+  }
+  h3 {
+    font-family: "JetBrains Mono";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .check-container {
+    display: flex;
+    gap: 24px;
+  }
+
+  .check-box:hover {
+    border: 2px solid #a4ffaf;
+    cursor: pointer;
+  }
+
+  .password-level {
+    height: 72px;
+    width: 476px;
+    display: flex;
+    padding: 25px 32px;
+  }
+
+  h4 {
+    height: 24px;
+    width: 87px;
+  }
+
+  h5 {
+    height: 32px;
+    width: 87px;
+  }
+
+  .generate-btn {
+    height: 65px;
+    width: 476px;
+    margin-top: 32px;
+    cursor: pointer;
+  }
+
+  .generate-btn:hover {
+    background-color: #18171f;
+    border: 2px solid #a4ffaf;
+  }
+  .generate-btn:hover .shape {
+    display: none;
+  }
+  .generate-btn:hover .shape1 {
+    display: inline;
+    margin-top: 3px;
+  }
+  .generate-btn:hover h6 {
+    color: #a4ffaf;
+  }
+}
